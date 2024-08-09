@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Program webdev-sparta adalah sebuah HTML sederhana yang dijalankan menggunakan next.js dan menampilkan portofolio
+diri dari pembuat. Program ini dijalankan dengan memanfaatkan next.js sebagai framework untuk menampilkan HTML yang
+telah dibuat dan didesain pada local directory.
 
-## Getting Started
+Cara menjalankan program ini adalah sebagai berikut:
+1. Buka folder pada Visual Studio Code, dan ubah directory Terminal ke folder dengan:
+   >>> cd [folder directory]
+2. Pastikan perangkat memiliki next.js dan npm terpasang
+3. Untuk memastikan perintah npm dapat dijalankan, masukkan perintah berikut:
+   >>> fnm env --use-on-cd | out-string | invoke-expression
+   Apabila dirasa perangkat sudah dapat menjalankan perintah npm, maka silakan lewati langkah ini
+4. Jalankan perintah:
+   >>> npm run dev
+   Dan tunggu sampai keluar log "Ready in ...s"
+5. Ketik https://localhost:3000 pada browser
 
-First, run the development server:
+Dalam program ini, tidak ada bonus yang dikerjakan karena pembuat masih kurang mahir dalam HTML, CSS, dan pemanfaatan
+fitur seperti content management system dan deployment.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Kesulitan yang dialami ketika membuat program ini adalah syntax yang sedikit berbeda dengan HTML biasa karena next.js
+melibatkan JavaScript. Pembuat belum cukup familiar dengan JavaScript sehingga butuh penyesuaian.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Program ini dibuat oleh:
+Muhammad Naufal Fathan
+19623078
+Sistem dan Teknologi Informasi
